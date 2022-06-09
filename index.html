@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <nav>
+        <div class="logo"><img src="Images/onlineStore-1.png"></div>
+        <div class="menu">
+          <li>
+          <a href>Crear Cuenta</a>
+          <a href>Ingresa</a>
+          <a href>Mis Compras</a>
+          </li>
+        </div>
+   </nav>
+  </header>
+
+  <main>
+    <h1>Validador de Tarjeta de Credito</h1>
+    <h2>Verifica tu tarjeta de forma segura </h2>
+
+    <div class="conteiner">
+
+      <section class="box">
+
+        <div class="item-label"><label for="numCard">Introduce número de tarjeta (ej. 5406282043000000)</label></div>
+        <div class="item-input"><input type="text" id="numCard"></div>
+        <div class="item-button"><button id="button" type="button">Valida Tarjeta</button></div>
+        <div class="linea"> </div>
+        <div id="mssageUser" class="item-mssage"></div>
+
+      </section>
+
+      <section class="buttonNewExit">
+
+        <button id="reload" type="button">Nuevo</button>
+        <button type="button">Salir</button>
+      </section>
+
+    </div>
+    
+</main>
+ 
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
